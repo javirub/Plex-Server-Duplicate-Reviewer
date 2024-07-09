@@ -5,7 +5,7 @@ Script that check for movies with more than one file for the same movie in a ple
 Build on python.
 It requires plexapi, you can install by pip: 
 ```bash
-$ pip install plexapi
+pip install plexapi
 ```
 
 # How to use
