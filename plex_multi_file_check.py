@@ -1,5 +1,5 @@
-from plexapi.server import PlexServer
 import csv
+from plexapi.server import PlexServer
 
 
 # URL from Plex Server
