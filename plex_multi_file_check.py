@@ -1,10 +1,10 @@
 from plexapi.server import PlexServer
 import csv
 
+
 # URL from Plex Server
 BASEURL = 'http://127.0.0.1:32400'  # This is for local server, change it to your server URL
 TOKEN = 'Your-Token-Here'  # This is your Plex Token
-
 
 # Connect to the Plex Server
 plex = PlexServer(BASEURL, TOKEN)
