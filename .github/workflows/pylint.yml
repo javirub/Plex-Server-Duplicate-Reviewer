@@ -21,4 +21,5 @@ jobs:
         pip install plexapi
     - name: Analysing the code with pylint
       run: |
+        pylint --generate-rcfile > .pylintrc
         pylint $(git ls-files '*.py')
